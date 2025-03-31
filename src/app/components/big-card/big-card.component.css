@@ -15,23 +15,25 @@
 .big-card__photo > img{
     width: 100%;
     height: auto;
+    min-width: 400px;
+}
+
+.big-card__title,
+.big-card__description,
+.big-card__publish-date {
+    margin-top: 10px;
 }
 
 .big-card__title > h1 {
-    margin-top: 10px;
     font-size: 35px;
 }
 
-.big-card__description > p {
-    margin-top: 10px;
+.big-card__description p,
+.big-card__publish-date p {
     color: #ADB5BD;
+}
 
+.big-card__description > p {
     text-align: justify;
     text-justify: inter-word;
 }
-
-.big-card__publish-date > p {
-    margin-top: 10px;
-    color: #ADB5BD;
-}
-

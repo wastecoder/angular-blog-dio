@@ -9,3 +9,7 @@
     color: #FFF;
     font-family: 'Segoe UI';
 }
+
+a {
+    text-decoration: none;
+}
