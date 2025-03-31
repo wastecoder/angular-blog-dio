@@ -4,5 +4,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
     background-color: #111;
+    color: #FFF;
+    font-family: 'Segoe UI';
 }
