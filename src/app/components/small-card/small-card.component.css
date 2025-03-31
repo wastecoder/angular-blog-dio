@@ -1,9 +1,10 @@
 .container__small-card {
+    /* border: solid #FFF 1px; */
     margin-left: 20px;
     margin-bottom: 10px;
 
-    width: 700px;
-    height: 150px;
+    width: 600px;
+    height: 170px;
 }
 
 .small-card__content {
@@ -37,7 +38,7 @@
 }
 
 .small-card__title > h1{
-    text-justify: inter-word;
+    font-size: 25px;
 }
 
 .small-card__publish-date {
@@ -45,5 +46,5 @@
 }
 
 .container__small-card__separator {
-    margin-top: 20px;    
+    margin-top: 30px;    
 }
