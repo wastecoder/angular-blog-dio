@@ -11,17 +11,19 @@ export const fakeData = [
   {
     id: 2,
     photoUrl:
-      'urhttps://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEBsy8QfENwIfr25Zln1aG2AngXkYekAEZiw&sl',
+      'https://imageio.forbes.com/specials-images/imageserve/63abee1c40cdcf4a3fcc7319/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds',
     publishDate: 'Janeiro, 205',
     contentTitle: 'O que é ChatGPT e o que ele é capaz de fazer?',
-    description: 'ola',
+    description:
+      'Descubra como o ChatGPT revoluciona a interação entre humanos e máquinas, com capacidades de gerar texto e auxiliar em diversas tarefas complexas.',
   },
   {
     id: 3,
     photoUrl: 'https://highsales.digital/images/blog/o-que-e-web-design.jpg',
     publishDate: 'Janeiro, 205',
     contentTitle: 'Tendências de design para sites em 2025',
-    description: 'ola',
+    description:
+      'Explore as principais tendências de design para 2025 e como essas inovações podem transformar a experiência do usuário em websites modernos.',
   },
   {
     id: 4,
@@ -29,6 +31,7 @@ export const fakeData = [
       'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_vWPwXRYA63uAlNJ7JSu-zp8rUVDxymYU0Q&s',
     publishDate: 'Março, 205',
     contentTitle: 'Como o Spring Security fortalece suas aplicações?',
-    description: 'ola',
+    description:
+      'Entenda como o Spring Security pode aumentar a segurança de suas aplicações Java, protegendo contra ameaças e garantindo uma arquitetura robusta.',
   },
 ];
