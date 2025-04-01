@@ -1,59 +1,25 @@
-# AngularBlogDio
+# Blog pessoal sobre tecnologia
+Este projeto foi desenvolvido utilizando o framework Angular, com foco na criação de um blog responsivo e moderno. A ideia central foi originada por [Felipe](https://github.com/felipeAguiarCode/angular-blog), que inicialmente encontrou um layout de [blog no Dribbble](https://dribbble.com/shots/18089191-Blog-Layout) e utilizou-o como base para a implementação do front-end.
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.5.
+## Etapas de Desenvolvimento:
+- **Pesquisa e Organização:** Felipe começou o desenvolvimento analisando o layout do blog, identificando e organizando os componentes principais, como o _menu-bar_, _menu-title_, _big-card_ e _small-card_. Essas ideias estão armazenadas na pasta [/ideas](https://github.com/wastecoder/angular-blog-dio/tree/main/.ideas) para melhor visualização e planejamento.
+- **Implementação dos Componentes:** Com base nas ideias capturadas, Felipe criou os componentes mencionados, focando na estrutura e organização do projeto.
+- **Personalização:** A partir desse ponto, personalizei realizando alterando as imagens e textos, mantendo a estrutura original, mas adaptando os elementos de acordo com as necessidades do projeto.
+- **Novo Componente - vertical-card:** Para aprimorar o projeto e praticar habilidades de desenvolvimento, implementei um novo componente chamado _vertical-card_. Esse componente foi inspirado no layout original do Dribbble, mas que Felipe não havia implementado. O vertical-card foi criado para adicionar mais flexibilidade e visual dinâmico ao blog.
 
-## Development server
 
-To start a local development server, run:
-
+## Instalação
+1. Clone o projeto na pasta desejada:
 ```bash
-ng serve
+git clone https://github.com/wastecoder/angular-blog-dio.git
 ```
-
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
+2. Baixe as dependências do projeto
 ```bash
-ng generate component component-name
+npm install
 ```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
+  - O comando acima criará a pasta "node_modules"
+3. Execute o projeto localmente
 ```bash
-ng generate --help
+ng s -o
 ```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+  - Isso irá iniciar e abrir o projeto na porta 4200.
