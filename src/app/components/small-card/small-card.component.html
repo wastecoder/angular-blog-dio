@@ -3,15 +3,19 @@
         <div class="small-card__content">
             <div class="small-card__photo">
                 <img 
-                src="https://cdn.bap-software.net/2024/08/26213247/spring.jpg"
-                alt="Imagem do Spring Boot">
+                src="{{ photoUrl }}"
+                alt="">
             </div>
             <div class="small-card__text">
                 <div class="small-card__publish-date">
-                    <p>Janeiro, 2025</p>
+                    <p>
+                        {{ publishDate }}
+                    </p>
                 </div>
                 <div class="small-card__title">
-                    <h1>Nova versão do Spring Boot</h1>
+                    <h1>
+                        {{ cardTitle }}
+                    </h1>
                 </div>
             </div>
         </div>
