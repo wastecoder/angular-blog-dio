@@ -1,17 +1,14 @@
 .container__content {
-    border: 1px solid blue;
-    width: 100%;
+    width: 600px;
     height: 100%;
-
+    
     margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
 
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.container__cover {
-    border: 1px solid RED;
 }
 
 .container__cover > img {
@@ -28,4 +25,9 @@
 
 .container__description > p {
     color: #ADB5BD;
+    text-align: justify;
+}
+
+.container__title > h1 {
+    text-align: center;
 }
