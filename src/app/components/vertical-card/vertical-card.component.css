@@ -1,0 +1,30 @@
+.container__vertical-card {
+    margin: 10px 30px;
+    width: 260px;
+    height: 400px;
+}
+
+.vertical-card__photo > img {
+    max-width: 260px;
+    height: auto;
+}
+
+.vertical-card__publish-date p,
+.vertical-card__description p,
+.vertical-card__title h1 {
+    margin-top: 5px;
+}
+
+.vertical-card__publish-date p,
+.vertical-card__description p {
+    color: #ADB5BD;
+}
+
+.vertical-card__title > h1 {
+    font-size: 20px;
+}
+
+.vertical-card__description > p {
+    font-size: 15px;
+    text-align: justify;
+}
