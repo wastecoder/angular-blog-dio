@@ -27,10 +27,10 @@ ng s -o
 ## Imagens do Projeto
 
 ### Página inicial (zoom out)
-![Página inicial com zoom out](<.ideas\1-Homepage-(zoom-out).png>)
+![Página inicial com zoom out](.ideas/1-Homepage-(zoom-out).png)
 
 ### Página inicial (normal)
-![Página inicial normal](<.ideas\2-Homepage-(normal).png>)
+![Página inicial normal](.ideas/2-Homepage-(normal).png)
 
 ### Postagem
-![Postagem](.ideas\3-Post.png)
+![Postagem](.ideas/3-Post.png)
