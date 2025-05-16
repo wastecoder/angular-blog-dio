@@ -23,3 +23,14 @@ npm install
 ng s -o
 ```
   - Isso irá iniciar e abrir o projeto na porta 4200.
+
+## Imagens do Projeto
+
+### Página inicial (zoom out)
+![Página inicial com zoom out](<.ideas\1-Homepage-(zoom-out).png>)
+
+### Página inicial (normal)
+![Página inicial normal](<.ideas\2-Homepage-(normal).png>)
+
+### Postagem
+![Postagem](.ideas\3-Post.png)
